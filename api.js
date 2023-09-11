@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function (){
   fetch (url)
   .then (resp => resp.json())
   .then (info=> anime(info.data))  
+  input.value=""
  });
   
   function anime (items) {
