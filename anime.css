@@ -1,0 +1,118 @@
+body{
+   background-color: rgba(255, 218, 185, 0.696); 
+}
+
+#fondo{
+   background-color: rgb(255, 201, 201);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Karma:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Domine:wght@700&family=Karma:wght@600&display=swap');
+
+#info{
+   color: rgb(255, 255, 255);
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+   font-size: 25px;
+   padding: 0.5%;
+   font-family: 'Courier New', Courier, monospace;
+   display: grid;
+   place-items: center;
+   font-weight: 1000;
+
+}
+#bs{ 
+   font-size: 50px;
+   color: rgb(208, 40, 40);
+   background-color: rgba(240, 128, 128, 0.61);
+   padding: 1%;
+   display: grid;
+   place-items: center;
+   font-family: 'Domine', serif;
+   font-weight: 1000;
+   cursor: pointer;
+}
+
+#input{
+margin-left: 10%;
+}
+#input::placeholder{
+   font-style: italic;
+   color: rgb(208, 40, 40);
+}
+
+#boton{
+   margin-right: 10%;
+   background-color: rgba(240, 128, 128, 0.61);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+   font-size: 15px;
+   font-family: 'Courier New', Courier;
+}
+
+#contenedor {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; 
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.card {
+   width: calc(33.33% - 10px);
+   margin-bottom: 20px;
+   display: grid;
+   place-items: center;
+}
+
+.card-body{
+   font-family: 'Karma', serif;
+   color: rgb(208, 40, 40);
+   font-size: 20px;
+   display: grid;
+   place-items: center;
+
+}
+
+#imagen1{
+   width: 10%;
+  opacity:30%;
+  max-height: 600px;
+}
+
+
+#imagen2{
+   opacity:20%;
+   width: 10%;
+   max-height: 600px;
+}
+
+#imagen3{
+   opacity:20%;
+   width: 10%;
+   max-height: 600px;
+}
+
+
+.carousel-caption p {
+  color: rgba(65, 65, 65, 0.584);
+  font-weight: bold; 
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.312);
+  font-family: 'Helvetica Neue', sans-serif; 
+  text-align: justify;
+}
+
+.carousel-caption h5{
+   color: rgba(65, 65, 65, 0.584);
+   font-weight: bold; 
+   font-size: 50px;
+   text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.312);
+   font-family: 'Cherry Bomb One', cursive;
+   text-align: center;
+}
+
+#flecha1, #flecha2{
+   opacity: 70%;
+}
