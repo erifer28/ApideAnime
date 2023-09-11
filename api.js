@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function (){
 let bs= document.getElementById("bs");
 bs.addEventListener("click", function(){
 let contendor= document.getElementById("contenedor");
-contendor.innerHTML=  `<div class="container text-center">
+contendor.innerHTML=  ` <div class="container text-center">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
@@ -44,21 +44,21 @@ contendor.innerHTML=  `<div class="container text-center">
 </ol>
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <img id=imagen1 src="Attack_on_Titan_franchise.webp" class="d-block w-100" alt="Imagen Anime 1">
+    <img id=imagen1 src="Imagenes/Attack_on_Titan_franchise.webp" class="d-block w-100" alt="Imagen Anime 1">
     <div class="carousel-caption d-none d-md-block">
       <h5>Attack on Titan</h5>
       <p>Attack on Titan, también conocido como Shingeki no Kyojin, es una serie de anime y manga que se desarrolla en un mundo donde la humanidad se encuentra al borde de la extinción debido a la aparición de gigantes humanoides devoradores de personas. La historia sigue a Eren Yeager y sus amigos mientras luchan por sobrevivir y descubren los oscuros secretos detrás de la existencia de los titanes.</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img id=imagen2 src="heroacademia.jpg" class="d-block w-100" alt="Imagen Anime 2">
+    <img id=imagen2 src="Imagenes/heroacademia.jpg" class="d-block w-100" alt="Imagen Anime 2">
     <div class="carousel-caption d-none d-md-block">
       <h5>My Hero Academia</h5>
       <p>My Hero Academia, o Boku no Hero Academia, es un anime y manga que se desarrolla en un mundo donde la mayoría de la población posee superpoderes llamados "Quirks". La trama sigue a Izuku Midoriya, un joven sin Quirk que sueña con convertirse en un héroe profesional. Con determinación y esfuerzo, se inscribe en la Academia U.A. High para perseguir su sueño y enfrentar a villanos poderosos.</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img id=imagen3 src="onepiece.avif" class="d-block w-100" alt="Imagen Anime 3">
+    <img id=imagen3 src="Imagenes/onepiece.avif" class="d-block w-100" alt="Imagen Anime 3">
     <div class="carousel-caption d-none d-md-block">
       <h5>One Piece</h5>
       <p>One Piece es un anime y manga de aventuras que sigue las hazañas de Monkey D. Luffy y su tripulación de piratas mientras buscan el legendario tesoro conocido como "One Piece". La serie se desarrolla en un vasto mundo lleno de islas exóticas, misterios y poderosos adversarios. A medida que avanzan, Luffy y su tripulación se enfrentan a desafíos épicos y forjan lazos inquebrantables.</p>
@@ -67,20 +67,20 @@ contendor.innerHTML=  `<div class="container text-center">
 </div>
 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
   <span id="flecha1">
-    <img src="icons8-chevron-izquierda-en-círculo-40.png" alt="Flecha Izquierda Gris">
+    <img src="Imagenes/icons8-chevron-izquierda-en-círculo-40.png" alt="Flecha Izquierda Gris">
   </span>
   <span class="sr-only">Anterior</span>
 </a>
 <a  class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
   <span id="flecha2" >
-    <img src="icons8-chevron-derecha-en-círculo-40.png" alt="Flecha Derecha Gris">
+    <img src="Imagenes/icons8-chevron-derecha-en-círculo-40.png" alt="Flecha Derecha Gris">
   </span>
   <span class="sr-only">Siguiente</span>
 </a>
 </div>
-
 </div>
-</div>`
+</div>
+`
 
 });
 

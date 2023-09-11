@@ -61,6 +61,7 @@ background-color: rgb(240, 128, 128);
    justify-content: space-between; 
    margin-left: 20px;
    margin-right: 20px;
+   padding: 2%;
 }
 
 .card {
@@ -119,4 +120,14 @@ background-color: rgb(240, 128, 128);
 
 #flecha1, #flecha2{
    opacity: 70%;
+}
+
+#pie{
+   background-color: rgba(240, 128, 128, 0.61);
+   display: grid;
+   place-items: center;
+}
+
+#pie a{
+   padding: 1%;
 }
